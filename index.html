@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaq.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Resumee</title>
+    </head>
+    <body>
+        <nav id= "desktop-nav"> 
+            <div class="logo">Nicolas Ignătescu</div>
+            <div>
+                <ul class="nav-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Nicolas Ignătescu</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Contact</a></li> 
+                </div>
+                <div class="line"></div>
+        </nav>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
