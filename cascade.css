@@ -1,0 +1,20 @@
+/* Cascade.css */
+
+/* Body styles */
+body {
+    font-family: 'SF Pro';
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    color: #333;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 18px;
+    color: #666;
+}
